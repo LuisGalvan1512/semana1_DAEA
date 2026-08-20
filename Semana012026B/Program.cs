@@ -2,7 +2,16 @@
 
 for (int i = 0; i < 20; i++)
 {
-    Console.WriteLine("¡Universitario Campeón!");
+	if (i%2==0)
+	{
+        Console.WriteLine("¡Universitario Campeón!");
+    }
+    else
+    {
+        Console.WriteLine("¡Alianza en Segunda!");
+    }
+
+
 }
 Console.WriteLine("Tricampeón!");
 Console.Read();
