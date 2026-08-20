@@ -9,7 +9,7 @@ namespace Semana012026B
     public class Producto
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public String Nombre { get; set; }
         public string nombreCorto { get; set; }
 
         public int Precio { get; set; }
@@ -22,9 +22,9 @@ namespace Semana012026B
 
         public void asignarNombreCorto()
         {
-            if (Nombre.Length > 4)
+            if (Nombre.Length > 3)
             {
-                nombreCorto = Nombre.Substring(0, 4);
+                nombreCorto = Nombre.Substring(0, 3);
             }
             else
             {
